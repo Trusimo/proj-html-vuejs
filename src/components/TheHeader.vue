@@ -4,8 +4,8 @@
         <img src="../../public/avada-marketing-logo-2x-200x37.png" alt="">
 
         <!-- ciclo per le voci della navbar -->
-        <div v-for="(item, index) in navbarVoices" :key="index">
-            {{ item }}
+        <div v-for="(voice, index) in navbarVoices" :key="index">
+            {{ voice }}
         </div>
 
         <div>(555) 802-134</div>
@@ -53,11 +53,11 @@ header {
 }
 
 .btn-orange {
-    border: 1px solid #ffe7da;
+    border-style: none;
     background-color: #ffe7da;
     color: #f76210;
     padding: 5px 20px;
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .btn-orange:hover {
