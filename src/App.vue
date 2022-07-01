@@ -24,11 +24,9 @@ export default {
 <style lang="scss">
 @import "assets/scss/main.scss";
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Poppins&display=swap');
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
