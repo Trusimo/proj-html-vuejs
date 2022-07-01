@@ -4,10 +4,12 @@
         <img src="../../public/avada-marketing-logo-2x-200x37.png" alt="">
 
         <!-- ciclo per le voci della navbar -->
-        <div>Ciao</div>
+        <div v-for="(item, index) in navbarVoices" :key="index">
+            {{ item }}
+        </div>
 
         <div>(555) 802-134</div>
-        <button>Free Quote</button>
+        <button class="btn-orange">Free Quote</button>
     </div>
     </div>
 
@@ -19,6 +21,14 @@ export default {
     name: 'TheHeader',
     data() {
         return {
+            navbarVoices: [
+                "Home",
+                "Services",
+                "Why Us",
+                "Case Studies",
+                "About",
+                "Blog"
+            ]
         
 }},
     methods: {
@@ -37,12 +47,12 @@ header {
 }
 .flex {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px;
     align-items: center;
 }
 
-button {
+.btn-orange {
     border: 1px solid #ffe7da;
     background-color: #ffe7da;
     color: #f76210;
@@ -50,7 +60,7 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+.btn-orange:hover {
     background-color: #f76210;
     color: white;
 }
