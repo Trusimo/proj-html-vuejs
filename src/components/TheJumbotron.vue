@@ -1,7 +1,7 @@
 <template>
     <div class="bg-jumbo">
         <div class="container">
-            <section>
+            <section class="jumbo-sec">
                 <div class="row">
                 <div class="col padding-col">
                     <h1>Unlock Your Online Growth Potential</h1>
@@ -48,8 +48,7 @@
 
 
 <style>
-
-section {
+.jumbo-sec {
     position: relative;
     color: white
 }
