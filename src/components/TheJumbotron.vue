@@ -14,7 +14,7 @@
 
                 </div>
             </div>
-                <div class="form-absolute">
+                <div class="form-absolute shadow">
                     <div class="flex-form">
                         <img class="img-rounded" src="../../public/marketing-consultant-expert.jpg" alt="">
                         <h5>Richard Madsen</h5>
@@ -54,14 +54,11 @@ section {
     color: white
 }
 
-.padding-col {
-    padding: 0 30px;
-}
-
 .bg-jumbo {
     background-image: url("../../public/marketing-intro.jpg");
+    background-size: 2000px;
     background-position: center;
-    height: 700px;
+    height: 550px;
 }
 
 .btn-white {
@@ -80,6 +77,7 @@ section {
 
 .form-absolute {
     position: absolute;
+    top: 150px;
     right: 300px;
     background-color: white;
     padding: 20px;
