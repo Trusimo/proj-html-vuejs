@@ -33,18 +33,21 @@
                 <button type="submit" class="btn-orange-col">Get a Consultation</button>
             </div>
         </div>
+    </div>
 
         <!-- Partners -->
-        <h2 class="text-center">Some Brands We Work With</h2>
-        <p class="text-center">Quisquie aliquet, libero consequat libero consectetur</p>
+        <div class="container">
+            <h2 class="text-center">Some Brands We Work With</h2>
+            <p class="text-center">Quisquie aliquet, libero consequat libero consectetur</p>
 
-        <div class="flex-partner">
-            <div v-for="(partner, index) in partners" :key="index">
-                <img :src="partner.url">
+            <div class="flex-partner">
+                <div v-for="(partner, index) in partners" :key="index">
+                    <img :src="partner.url">
+                </div>
             </div>
         </div>
 
-        <div class="flex-partner shadow">
+        <div class="container flex-partner shadow">
             <div>
                 <img class="img-rounded" src="../../public/marketing-expert-cta.png" alt="">
             </div>
@@ -53,9 +56,9 @@
         </div>
 
         <!-- Case studies -->
-        <div class="padding-sec">
+        <div class="container padding-sec">
             <h2 class="text-center">Trusted by Leading Organizations</h2>
-            <div class="flex-partner row">
+            <div class="flex-case row">
                 <div class="col" v-for="(item, index) in caseStudies" :key="index">
                     <img :src="item.img" alt="">
                     <div class="bold">{{ item.par }}</div>
@@ -67,7 +70,7 @@
         </div>
 
         <!-- How we Boost -->
-        <div class="padding-sec-lat">
+        <div class="container padding-sec-lat">
             <div class="row my-5">
                 <div class="col">
                     <h2>We Boost Our Clients Bottom Line by Optimizing Their Growth Potential</h2>
@@ -80,7 +83,7 @@
             </div>
         </div>
 
-        <div class="padding-sec-lat">
+        <div class="container padding-sec-lat">
             <div class="row">
                 <div class="col">
                     <div class="padding-col">
@@ -106,7 +109,7 @@
         </div>
 
         <!-- Awards -->
-        <div class="padding-sec">
+        <div class="container padding-sec">
             <h4 class="text-center">Awards</h4>
             <div class="row flex-partner">
             <div class="col" v-for="(prize, index) in awards" :key="index">
@@ -116,7 +119,55 @@
         </div>
         </div>
 
-    </div>
+        <!-- worker quote -->
+        <div class="container padding-sec-lat">
+            <div class="row px-6">
+                <div class="col">
+                    <img src="../../public/large-testimonial-400x389.jpg" alt="">
+                </div>
+                <div class="col">
+                    <p class="bold text-left">"The team at Avada Marketing Consultant is faboulous. They helped us unlock our potential
+                        online and offline. We have experienced year on year growth due to their progressive approach"
+                    </p>
+                    <p class="font-small bold">Kate Schneider</p>
+                    <span class="font-small">Marketing Consultant - Abstract</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Marketing resources -->
+        <div class="container padding-sec">
+            <div class="row">
+                <div class="col">
+                    <h2>Marketing Resources: Insider Advice on How to Increase Sales</h2>
+                </div>
+                <div class="col flex-bottom">
+                    <button type="submit" class="btn-orange-col">Explore All Resources</button>
+                </div>
+            </div>
+
+            <div class="flex-case row">
+                <div class="col" v-for="(item, index) in marketingTips" :key="index">
+                    <img :src="item.img" alt="">
+                    <h4 class="py-3">{{ item.text }}</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- sfondo nero -->
+        <div class="bg-black">
+            <div class="container padding-sec">
+                <div class="row">
+                    <div class="col">
+                        <h2>Let's Make Things Happen</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A neque assumenda vitae earum? Praesentium, </p>
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+        </div>
+        </div>
 
 </template>
 
@@ -136,19 +187,19 @@ export default {
             ],
             caseStudies: [
                 {
-                    img: "../../public/case-studies-1.jpg",
+                    img: "../../case-studies-1-400x450.jpg",
                     par: "How Spaces attracted five millions visitors by improving the content",
                     number: "200%",
                     result: "Higher revenue from digital"
                 },
                 {
-                    img: "../../public/case-studies-4.jpg",
+                    img: "../../case-studies-4-400x450.jpg",
                     par: "Creativity helped Hemisferio to increase their brand reach vertically",
                     number: "10x",
                     result: "Sales increase with the same AD spend"
                 },
                 {
-                    img: "../../public/case-studies-6.jpg",
+                    img: "../../case-studies-6-400x450.jpg",
                     par: "How DigitalBox used AI-powered data insights to boost sales",
                     number: "3-year",
                     result: "Partnership with Avada Consultant"
@@ -170,21 +221,35 @@ export default {
             ],
             awards: [
                 {
-                img: "../../public/award-a-200x191.png",
+                img: "../../award-a-200x191.png",
                 prizeName: "Winner Seo Master MAGT Smart Start Award 2017"
             },
                 {
-                img: "../../public/award-b-200x191.png",
+                img: "../../award-b-200x191.png",
                 prizeName: "Top Social Media Agencies Next Partner 2018"
             },
                 {
-                img: "../../public/award-c-200x191.png",
+                img: "../../award-c-200x191.png",
                 prizeName: "10 Fastest Growing Abstract Solution Providers 2019"
             },
                 {
-                img: "../../public/award-d-200x191.png",
+                img: "../../award-d-200x191.png",
                 prizeName: "National Excellence Agencie Award Winner 2020"
             },
+            ],
+            marketingTips: [
+            {
+                    img: "../../blog-posts-6-400x267.jpg",
+                    text: "Marketing Tips and Tricks For Your Website"
+                },
+                {
+                    img: "../../blog-posts-5-400x267.jpg",
+                    text: "How to Write Stunning Blog Post Titles"
+                },
+                {
+                    img: "../../blog-posts-4-400x267.jpg",
+                    text: "Techniques to Reduce Facebook ADS Spends"
+                }
             ]
         
 }},
@@ -205,7 +270,20 @@ export default {
     justify-content: space-between;
     padding: 30px 0;
     align-items: center;
+}
 
+.flex-case {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+    gap: 10px
+}
+
+.flex-bottom {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
 }
 
 .padding-sec {
@@ -241,4 +319,10 @@ export default {
     padding: 10px 30px;
 }
 
+
+.bg-black {
+    background-color: black;
+    color: white;
+    width: 100%;
+}
 </style>

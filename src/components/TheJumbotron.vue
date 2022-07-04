@@ -16,9 +16,9 @@
             </div>
                 <div class="form-absolute shadow">
                     <div class="flex-form">
-                        <img class="img-rounded" src="../../public/marketing-consultant-expert.jpg" alt="">
-                        <h5>Richard Madsen</h5>
-                        <p>Marketing Consulant Expert</p>
+                        <img class="img-rounded" src="/marketing-consultant-expert.jpg" alt="">
+                        <h5 class="color-bl">Richard Madsen</h5>
+                        <p class="color-bl">Marketing Consulant Expert</p>
                     </div>
                     <form>
                         <div class="form-group">
@@ -94,6 +94,10 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
+}
+
+.color-bl {
+    color: black;
 }
 
 .form-group {
