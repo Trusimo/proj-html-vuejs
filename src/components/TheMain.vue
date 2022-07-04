@@ -52,6 +52,7 @@
             <button class="btn-orange">(555) 802-134</button>
         </div>
 
+        <!-- Case studies -->
         <div class="padding-sec">
             <h2 class="text-center">Trusted by Leading Organizations</h2>
             <div class="flex-partner row">
@@ -65,6 +66,7 @@
             <button type="submit" class="btn-orange-col text-center">Read More Case Studies</button>
         </div>
 
+        <!-- How we Boost -->
         <div class="padding-sec-lat">
             <div class="row my-5">
                 <div class="col">
@@ -92,14 +94,26 @@
                 </div>
                 
                 <div class="col padding-col">
-                    <div class="flex">
-                        <!-- iconafontawesome -->
-                        <div class="v-for">
-
+                    <div>
+                        <div><!-- iconafontawesome --></div>
+                        <div v-for="(item, index) in qualities" :key="index">
+                            <h5 class="padding-title">{{ item.title }}</h5>
+                            <span class="font-small">{{ item.lorem }}</span>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Awards -->
+        <div class="padding-sec">
+            <h4 class="text-center">Awards</h4>
+            <div class="row flex-partner">
+            <div class="col" v-for="(prize, index) in awards" :key="index">
+                <div><img :src="prize.img"></div>
+                <span class="bold">{{prize.prizeName}}</span>
+            </div>
+        </div>
         </div>
 
     </div>
@@ -139,6 +153,38 @@ export default {
                     number: "3-year",
                     result: "Partnership with Avada Consultant"
                 },
+            ],
+            qualities: [
+                {
+                    title: "Accountability",
+                    lorem: "lorem ipsum lorem ipsum lorem"
+                },
+                {
+                    title: "Transparency",
+                    lorem: "lorem ipsum lorem ipsum lorem"
+                },
+                {
+                    title: "Investment",
+                    lorem: "lorem ipsum lorem ipsum lorem"
+                }
+            ],
+            awards: [
+                {
+                img: "../../public/award-a-200x191.png",
+                prizeName: "Winner Seo Master MAGT Smart Start Award 2017"
+            },
+                {
+                img: "../../public/award-b-200x191.png",
+                prizeName: "Top Social Media Agencies Next Partner 2018"
+            },
+                {
+                img: "../../public/award-c-200x191.png",
+                prizeName: "10 Fastest Growing Abstract Solution Providers 2019"
+            },
+                {
+                img: "../../public/award-d-200x191.png",
+                prizeName: "National Excellence Agencie Award Winner 2020"
+            },
             ]
         
 }},
@@ -168,6 +214,10 @@ export default {
 
 .padding-sec-lat {
     padding: 100px 50px;
+}
+
+.padding-title {
+    padding-top: 20px;
 }
 
 .btn-orange-col {
