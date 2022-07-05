@@ -174,7 +174,7 @@
                 </div>
             </div>
 
-            <div class="flex-case row">
+            <div class="flex-case row my-4">
                 <div class="col" v-for="(item, index) in marketingTips" :key="index">
                     <img :src="item.img" alt="">
                     <h4 class="py-3">{{ item.text }}</h4>
