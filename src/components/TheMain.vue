@@ -214,7 +214,7 @@
                             online and offline. We have experienced year on year growth due to their progressive
                             approach"
                         </div>
-                        <div class="font-small py-3">George Anderson</div>
+                        <div class="font-small bold py-3">George Anderson</div>
                         <div class="font-small">DigitalBox CEO</div>
 
                     </div>
