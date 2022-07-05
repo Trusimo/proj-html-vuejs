@@ -72,7 +72,10 @@
             <h2 class="text-center">Trusted by Leading Organizations</h2>
             <div class="flex-case row">
                 <div class="col" v-for="(item, index) in caseStudies" :key="index">
-                    <img class="case-img" :src="item.img" alt="">
+                    <div class="overlay-container">
+                        <img class="overlay-img" :src="item.img" alt="">
+                        <span class="overlay"></span>
+                    </div>
                     <div class="bold">{{ item.par }}</div>
                     <h3>{{ item.number }}</h3>
                     <div class="font-small">{{ item.result }}</div>
@@ -185,7 +188,10 @@
 
             <div class="flex-case row my-4">
                 <div class="col" v-for="(item, index) in marketingTips" :key="index">
-                    <img :src="item.img" alt="">
+                    <div class="overlay-container">
+                        <img class="overlay-img" :src="item.img" alt="">
+                        <span class="overlay"></span>
+                    </div>
                     <h4 class="py-3">{{ item.text }}</h4>
                 </div>
             </div>
@@ -399,8 +405,24 @@ export default {
     font-size: 12px;
 }
 
-.case-img:hover {
-    background-color: #f76210;
+.overlay-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 98%;
+    opacity: 0;
+}
+
+.overlay-container:hover .overlay {
+    opacity: 0.3;
+    background: #f76210;
 }
 
 .bg-black {
