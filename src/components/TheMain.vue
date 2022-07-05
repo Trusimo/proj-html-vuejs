@@ -132,7 +132,7 @@
         <div class="container padding-sec">
             <h4 class="text-center">Awards</h4>
             <div class="row flex-partner">
-                <div class="col" v-for="(prize, index) in awards" :key="index">
+                <div class="col text-center" v-for="(prize, index) in awards" :key="index">
                     <div><img :src="prize.img"></div>
                     <span class="bold">{{ prize.prizeName }}</span>
                 </div>
