@@ -31,6 +31,20 @@
 
             </div>
         </div>
+        <div class="row mt-5 font-small">
+            <div class="col-4">
+                <i class="fa-solid fa-copyright"></i> 2020 Avada Consultant Powered by Wordpress
+            </div>
+            <div class="col-2">
+                Call Us (555) 802-1234
+            </div>
+            <div class="col-2">
+
+            </div>
+            <div class="col-2">
+                info@yourcompany.com
+            </div>
+        </div>
     </div>
 
 </template>
