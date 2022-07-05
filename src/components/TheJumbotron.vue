@@ -3,12 +3,12 @@
         <div class="container">
             <section class="jumbo-sec">
                 <div class="row">
-                    <div class="col mt-5">
-                        <h1>Unlock Your Online Growth Potential</h1>
-                        <p>Online marketing to secure customer retention, leads and sales.
+                    <div class="col mt-5 margin-top padding-col">
+                        <h1 class="margin-top padding-col">Unlock Your Online Growth Potential</h1>
+                        <p class="padding-col">Online marketing to secure customer retention, leads and sales.
                             We focus on the bigger picture.
                         </p>
-                        <button class="btn-white">Our Services</button>
+                        <button class="btn-white margin-col">Our Services  <i class="fa-solid fa-arrow-right"></i></button>
                     </div>
                     <div class="col">
 
@@ -83,8 +83,16 @@
     border-radius: 8px;
 }
 
-.margin-top-col {
+.padding-col {
+    padding: 0 100px;
+}
+
+.margin-top {
     margin-top: 200px;
+}
+
+.margin-col {
+    margin: 0 100px;
 }
 
 .flex-form {

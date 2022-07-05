@@ -9,7 +9,7 @@
                     {{ voice }}
                 </div>
 
-                <div>(555) 802-134</div>
+                <div><i class="fa-solid fa-phone"></i> (555) 802-134</div>
                 <button class="btn-orange">Free Quote</button>
             </div>
         </div>

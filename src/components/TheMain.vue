@@ -64,7 +64,7 @@
                 </div>
             </div>
             <h5>Drive Leads and Sales with Avada</h5>
-            <button class="btn-orange">(555) 802-134</button>
+            <button class="btn-orange"><i class="fa-solid fa-phone"></i> (555) 802-134</button>
         </div>
 
         <!-- Case studies -->
