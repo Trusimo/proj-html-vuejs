@@ -3,8 +3,13 @@
         <div class="row">
             <div class="col-4">
                 <h3>Grow Your Online Business Strategically, and Improve Customer Retention</h3>
-                <div class="flex">
-
+                <div class="flex-social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <i class="fa-brands fa-tiktok"></i>
                 </div>
             </div>
             <div class="col-2">
@@ -76,5 +81,9 @@ export default {
 
 
 <style>
-
+.flex-social {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
 </style>
