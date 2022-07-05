@@ -1,16 +1,18 @@
 <template>
-    <div class="container">
-        <div class="flex">
-        <img src="../../public/avada-marketing-logo-2x-200x37.png" alt="">
+    <div>
+        <div class="container fixed">
+            <div class="flex">
+                <img src="../../public/avada-marketing-logo-2x-200x37.png" alt="">
 
-        <!-- ciclo per le voci della navbar -->
-        <div v-for="(voice, index) in navbarVoices" :key="index">
-            {{ voice }}
+                <!-- ciclo per le voci della navbar -->
+                <div v-for="(voice, index) in navbarVoices" :key="index">
+                    {{ voice }}
+                </div>
+
+                <div>(555) 802-134</div>
+                <button class="btn-orange">Free Quote</button>
+            </div>
         </div>
-
-        <div>(555) 802-134</div>
-        <button class="btn-orange">Free Quote</button>
-    </div>
     </div>
 
 </template>
@@ -29,8 +31,9 @@ export default {
                 "About",
                 "Blog"
             ]
-        
-}},
+
+        }
+    },
     methods: {
 
     }
@@ -42,9 +45,13 @@ export default {
 
 
 <style>
-header {
+.fixed {
     position: fixed;
+    background-color: white;
+    min-width: 100%;
+    z-index: 1
 }
+
 .flex {
     display: flex;
     justify-content: space-between;
@@ -64,7 +71,4 @@ header {
     background-color: #f76210;
     color: white;
 }
-
-
-
 </style>

@@ -4,37 +4,37 @@
         <div class="container padding-sec">
             <!-- 3 row centrali -->
             <div class="row">
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col p-5">
+                    <img src="../../public/beer_thumbnail-400x300.jpg" alt="">
                 </div>
-                <div class="col">
+                <div class="col p-5">
                     <h2>Increased Brand Awareness</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
-                        odit delectus</p>
+                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia omnis perferendi</p>
                     <button type="submit" class="btn-orange-col">Get a Consultation</button>
                 </div>
             </div>
 
             <div class="row my-5">
-                <div class="col">
+                <div class="col p-5">
                     <h2>In-House Sales Training</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
-                        odit delectus</p>
+                    <p>orem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
+                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia omnis perferendi</p>
                     <button type="submit" class="btn-orange-col">Get a Consultation</button>
                 </div>
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col p-5">
+                    <img src="../../public/cafe_thumbnail-400x300.jpg" alt="">
                 </div>
             </div>
 
             <div class="row my-5">
-                <div class="col">
-                    <img src="" alt="">
+                <div class="col p-5">
+                    <img src="../../public/cleaning_services-400x300.jpg" alt="">
                 </div>
-                <div class="col">
+                <div class="col p-5">
                     <h2>Harness Your Social Proof</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
-                        odit delectus</p>
+                    <p>orem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
+                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia omnis perferendi</p>
                     <button type="submit" class="btn-orange-col">Get a Consultation</button>
                 </div>
             </div>

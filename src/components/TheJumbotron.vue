@@ -3,17 +3,17 @@
         <div class="container">
             <section class="jumbo-sec">
                 <div class="row">
-                <div class="col padding-col">
-                    <h1>Unlock Your Online Growth Potential</h1>
-                    <p>Online marketing to secure customer retention, leads and sales.
-                        We focus on the bigger picture.
-                    </p>
-                    <button class="btn-white">Our Services</button>
-                </div>
-                <div class="col">
+                    <div class="col mt-5">
+                        <h1>Unlock Your Online Growth Potential</h1>
+                        <p>Online marketing to secure customer retention, leads and sales.
+                            We focus on the bigger picture.
+                        </p>
+                        <button class="btn-white">Our Services</button>
+                    </div>
+                    <div class="col">
 
+                    </div>
                 </div>
-            </div>
                 <div class="form-absolute shadow">
                     <div class="flex-form">
                         <img class="img-rounded" src="/marketing-consultant-expert.jpg" alt="">
@@ -57,7 +57,7 @@
     background-image: url("../../public/marketing-intro.jpg");
     background-size: 2000px;
     background-position: center;
-    height: 550px;
+    height: 660px;
 }
 
 .btn-white {
@@ -76,11 +76,15 @@
 
 .form-absolute {
     position: absolute;
-    top: 150px;
+    top: 260px;
     right: 300px;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
+}
+
+.margin-top-col {
+    margin-top: 200px;
 }
 
 .flex-form {
@@ -112,7 +116,7 @@
     margin-top: 10px;
 }
 
-.btn-orange-variant{
+.btn-orange-variant {
     background-color: #f76210;
     color: white;
     width: 100%;
@@ -120,6 +124,4 @@
     border-radius: 8px;
     padding: 8px 30px;
 }
-
-
 </style>
