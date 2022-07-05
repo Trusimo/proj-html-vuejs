@@ -10,7 +10,8 @@
                 <div class="col p-5">
                     <h2>Increased Brand Awareness</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
-                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia omnis perferendi</p>
+                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia
+                        omnis perferendi</p>
                     <button type="submit" class="btn-orange-col">Get a Consultation</button>
                 </div>
             </div>
@@ -19,7 +20,8 @@
                 <div class="col p-5">
                     <h2>In-House Sales Training</h2>
                     <p>orem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
-                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia omnis perferendi</p>
+                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia
+                        omnis perferendi</p>
                     <button type="submit" class="btn-orange-col">Get a Consultation</button>
                 </div>
                 <div class="col p-5">
@@ -34,7 +36,8 @@
                 <div class="col p-5">
                     <h2>Harness Your Social Proof</h2>
                     <p>orem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
-                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia omnis perferendi</p>
+                        odit delectus Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa sed at officia
+                        omnis perferendi</p>
                     <button type="submit" class="btn-orange-col">Get a Consultation</button>
                 </div>
             </div>
@@ -117,11 +120,9 @@
 
                 <div class="col-5">
                     <div>
-                        <div>
-                            <i class="fa-solid fa-2x fa-square-poll-horizontal"></i>
-                            <i class="fa-solid fa-2x fa-calendar-plus"></i>
-                            <i class="fa-solid fa-2x fa-chart-bar"></i>
-                        </div>
+                        <i class="fa-solid fa-2x fa-square-poll-horizontal"></i>
+                        <i class="fa-solid fa-2x fa-calendar-plus"></i>
+                        <i class="fa-solid fa-2x fa-chart-bar"></i>
                         <div v-for="(item, index) in qualities" :key="index">
                             <h5 class="padding-title">{{ item.title }}</h5>
                             <span class="font-small">{{ item.lorem }}</span>

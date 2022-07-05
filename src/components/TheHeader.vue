@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container fixed">
+        <div class="container fixed shadow">
             <div class="flex">
                 <img src="../../public/avada-marketing-logo-2x-200x37.png" alt="">
 
