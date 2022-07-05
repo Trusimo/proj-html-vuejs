@@ -72,13 +72,15 @@
             <h2 class="text-center">Trusted by Leading Organizations</h2>
             <div class="flex-case row">
                 <div class="col" v-for="(item, index) in caseStudies" :key="index">
-                    <img :src="item.img" alt="">
+                    <img class="case-img" :src="item.img" alt="">
                     <div class="bold">{{ item.par }}</div>
                     <h3>{{ item.number }}</h3>
                     <div class="font-small">{{ item.result }}</div>
                 </div>
             </div>
-            <button type="submit" class="btn-orange-col text-center">Read More Case Studies</button>
+            <div class="text-center">
+                <button type="submit" class="btn-orange-col">Read More Case Studies</button>
+            </div>
         </div>
 
         <!-- How we Boost -->
@@ -397,6 +399,9 @@ export default {
     font-size: 12px;
 }
 
+.case-img:hover {
+    background-color: #f76210;
+}
 
 .bg-black {
     background-color: black;
