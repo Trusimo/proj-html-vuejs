@@ -124,4 +124,8 @@
     border-radius: 8px;
     padding: 8px 30px;
 }
+
+.btn-orange-variant:hover {
+    background-color: #b0470e;
+}
 </style>

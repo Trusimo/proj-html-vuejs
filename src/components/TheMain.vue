@@ -371,6 +371,10 @@ export default {
     padding: 8px 30px;
 }
 
+.btn-orange-col:hover {
+    background-color: #b0470e;
+}
+
 .bold {
     font-weight: bold;
     font-size: 18px;
