@@ -112,7 +112,7 @@
                 <div class="col">
 
                 </div>
-                <div class="col-5 p-5">
+                <div class="col-5 px-5">
                     <h4>We Build Relationships</h4>
                     <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
                         libero
@@ -123,15 +123,15 @@
                         id totam iusto esse impedit modi</p>
                 </div>
 
-                <div class="col-5">
-                    <div>
-                        <i class="fa-solid fa-2x fa-square-poll-horizontal"></i>
-                        <i class="fa-solid fa-2x fa-calendar-plus"></i>
-                        <i class="fa-solid fa-2x fa-chart-bar"></i>
-                        <div v-for="(item, index) in qualities" :key="index">
-                            <h5 class="padding-title">{{ item.title }}</h5>
-                            <span class="font-small">{{ item.lorem }}</span>
-                        </div>
+                <div class="col-2 flex-col">
+                    <i class="fa-solid fa-2x fa-square-poll-horizontal"></i>
+                    <i class="fa-solid fa-2x fa-calendar-plus"></i>
+                    <i class="fa-solid fa-2x fa-chart-bar"></i>
+                </div>
+                <div class="col">
+                    <div v-for="(item, index) in qualities" :key="index">
+                        <h5 class="padding-title">{{ item.title }}</h5>
+                        <span class="font-small">{{ item.lorem }}</span>
                     </div>
                 </div>
                 <div class="col">
@@ -370,6 +370,12 @@ export default {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 90px
 }
 
 .padding-sec {
