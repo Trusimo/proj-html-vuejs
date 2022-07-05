@@ -47,6 +47,10 @@
         </div>
 
         <div class="live-chat shadow font-small">
+            <div class="flex-img-foot">
+                <img class="img-chat" src="../../public/marketing-expert-cta.png">
+            </div>
+            <div class="flex-x">X</div>
             This is a free HubSpot live chat. You can create your own chat flows
             and engage your customers with Avada & HubSpot!
         </div>
@@ -113,7 +117,26 @@ export default {
     bottom: 15px;
     right: 10px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 10px;
     z-index: 1;
+}
+
+.flex-x {
+    display: flex;
+    justify-content: end;
+}
+
+.flex-img-foot {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.img-chat {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px
 }
 </style>
