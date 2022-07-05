@@ -14,17 +14,17 @@
             </div>
             <div class="col-2">
                 <ul v-for="(item, index) in services" :key="index">
-                    {{item}}
+                    {{ item }}
                 </ul>
             </div>
             <div class="col-2">
                 <ul v-for="(item, index) in resources" :key="index">
-                    {{item}}
+                    {{ item }}
                 </ul>
             </div>
             <div class="col-2">
                 <ul v-for="(item, index) in company" :key="index">
-                    {{item}}
+                    {{ item }}
                 </ul>
             </div>
             <div class="col-2">
@@ -44,6 +44,11 @@
             <div class="col-2">
                 info@yourcompany.com
             </div>
+        </div>
+
+        <div class="live-chat shadow font-small">
+            This is a free HubSpot live chat. You can create your own chat flows
+            and engage your customers with Avada & HubSpot!
         </div>
     </div>
 
@@ -99,5 +104,16 @@ export default {
     display: flex;
     justify-content: flex-start;
     gap: 20px;
+}
+
+.live-chat {
+    width: 180px;
+    background-color: white;
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    z-index: 1;
 }
 </style>
