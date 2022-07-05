@@ -76,15 +76,21 @@
 
         <!-- How we Boost -->
         <div class="container padding-sec-lat">
-            <div class="row my-5">
+            <div class="row">
                 <div class="col">
+
+                </div>
+                <div class="col-5 px-5">
                     <h2>We Boost Our Clients Bottom Line by Optimizing Their Growth Potential</h2>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
                         odit delectus</p>
                     <button type="submit" class="btn-orange-col">Why Work With Us</button>
                 </div>
-                <div class="col">
+                <div class="col-5 px-5">
                     <img src="../../public/we-boost-our-clients-400x366.jpg" alt="">
+                </div>
+                <div class="col">
+
                 </div>
             </div>
         </div>
@@ -92,21 +98,20 @@
         <div class="container padding-sec-lat">
             <div class="row">
                 <div class="col">
-                    <div class="padding-col">
-                        <h4>We Build Relationships</h4>
-                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-                            libero
-                            id totam iusto esse impedit modi</p>
-                    </div>
-                    <div class="padding-col">
-                        <h4>Proprietary Processes</h4>
-                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
-                            libero
-                            id totam iusto esse impedit modi</p>
-                    </div>
+
+                </div>
+                <div class="col-5 p-5">
+                    <h4>We Build Relationships</h4>
+                    <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                        libero
+                        id totam iusto esse impedit modi</p>
+                    <h4>Proprietary Processes</h4>
+                    <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                        libero
+                        id totam iusto esse impedit modi</p>
                 </div>
 
-                <div class="col padding-col">
+                <div class="col-5">
                     <div>
                         <div>
                             <!-- iconafontawesome -->
@@ -116,6 +121,9 @@
                             <span class="font-small">{{ item.lorem }}</span>
                         </div>
                     </div>
+                </div>
+                <div class="col">
+
                 </div>
             </div>
         </div>
@@ -133,11 +141,14 @@
 
         <!-- worker quote -->
         <div class="container padding-sec-lat">
-            <div class="row px-6">
+            <div class="row">
                 <div class="col">
+
+                </div>
+                <div class="col-6">
                     <img src="../../public/large-testimonial-400x389.jpg" alt="">
                 </div>
-                <div class="col">
+                <div class="col-4 p-5">
                     <p class="bold text-left">"The team at Avada Marketing Consultant is faboulous. They helped us
                         unlock
                         our potential
@@ -145,6 +156,9 @@
                     </p>
                     <p class="font-small bold">Kate Schneider</p>
                     <span class="font-small">Marketing Consultant - Abstract</span>
+                </div>
+                <div class="col">
+
                 </div>
             </div>
         </div>
@@ -180,16 +194,39 @@
                         <div class="line"></div>
                         <div class="font-small py-3">
                             "The team at Avada Marketing Consultant is faboulous. They helped us
-                        unlock
-                        our potential
-                        online and offline. We have experienced year on year growth due to their progressive approach"
+                            unlock
+                            our potential
+                            online and offline. We have experienced year on year growth due to their progressive
+                            approach"
                         </div>
                         <div class="font-small py-3">George Anderson</div>
                         <div class="font-small">DigitalBox CEO</div>
 
                     </div>
-                    <div class="col">
+                    <div class="col-5">
 
+                    </div>
+                    <div class="col px-5">
+                        <div class="form-black">
+                            <div class="flex-form">
+                                <img class="img-rounded" src="/marketing-consultant-expert.jpg" alt="">
+                                <h5 class="color-bl">Richard Madsen</h5>
+                                <p class="color-bl">Marketing Consulant Expert</p>
+                            </div>
+                            <form>
+                                <div class="form-group">
+                                    <input type="name" class="form-control" placeholder="Your name*">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your email*">
+                                </div>
+                                <div class="form-group">
+                                    <input type="name" class="form-control" placeholder="Your phone number*">
+                                </div>
+                                <button type="submit" class="btn-orange-variant">Get a Callback</button>
+                                <div class="condition-font">By submitting my data I agree to be contacted</div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -343,9 +380,6 @@ export default {
     font-size: 12px;
 }
 
-.padding-col {
-    padding: 10px 30px;
-}
 
 .bg-black {
     background-color: black;
@@ -356,5 +390,11 @@ export default {
 .line {
     width: 46px;
     border: 1px solid rgb(79, 78, 78)
+}
+
+.form-black {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
 }
 </style>
