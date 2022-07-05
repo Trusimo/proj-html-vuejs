@@ -1,39 +1,44 @@
 <template>
-    <div class="container padding-sec">
-        <!-- 3 row centrali -->
-        <div class="row">
-            <div class="col">
-                <img src="" alt="">
-            </div>
-            <div class="col">
-                <h2>Increased Brand Awareness</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum odit delectus</p>
-                <button type="submit" class="btn-orange-col">Get a Consultation</button>
-            </div>
-        </div>
 
-        <div class="row my-5">
-            <div class="col">
-                <h2>In-House Sales Training</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum odit delectus</p>
-                <button type="submit" class="btn-orange-col">Get a Consultation</button>
+    <div>
+        <div class="container padding-sec">
+            <!-- 3 row centrali -->
+            <div class="row">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <h2>Increased Brand Awareness</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
+                        odit delectus</p>
+                    <button type="submit" class="btn-orange-col">Get a Consultation</button>
+                </div>
             </div>
-            <div class="col">
-                <img src="" alt="">
-            </div>
-        </div>
 
-        <div class="row my-5">
-            <div class="col">
-                <img src="" alt="">
+            <div class="row my-5">
+                <div class="col">
+                    <h2>In-House Sales Training</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
+                        odit delectus</p>
+                    <button type="submit" class="btn-orange-col">Get a Consultation</button>
+                </div>
+                <div class="col">
+                    <img src="" alt="">
+                </div>
             </div>
-            <div class="col">
-                <h2>Harness Your Social Proof</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum odit delectus</p>
-                <button type="submit" class="btn-orange-col">Get a Consultation</button>
+
+            <div class="row my-5">
+                <div class="col">
+                    <img src="" alt="">
+                </div>
+                <div class="col">
+                    <h2>Harness Your Social Proof</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
+                        odit delectus</p>
+                    <button type="submit" class="btn-orange-col">Get a Consultation</button>
+                </div>
             </div>
         </div>
-    </div>
 
         <!-- Partners -->
         <div class="container">
@@ -74,7 +79,8 @@
             <div class="row my-5">
                 <div class="col">
                     <h2>We Boost Our Clients Bottom Line by Optimizing Their Growth Potential</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum odit delectus</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus dolorem, ducimus illo nostrum
+                        odit delectus</p>
                     <button type="submit" class="btn-orange-col">Why Work With Us</button>
                 </div>
                 <div class="col">
@@ -88,17 +94,23 @@
                 <div class="col">
                     <div class="padding-col">
                         <h4>We Build Relationships</h4>
-                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, libero id totam iusto esse impedit modi</p>
+                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                            libero
+                            id totam iusto esse impedit modi</p>
                     </div>
                     <div class="padding-col">
                         <h4>Proprietary Processes</h4>
-                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, libero id totam iusto esse impedit modi</p>
+                        <p class="font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                            libero
+                            id totam iusto esse impedit modi</p>
                     </div>
                 </div>
-                
+
                 <div class="col padding-col">
                     <div>
-                        <div><!-- iconafontawesome --></div>
+                        <div>
+                            <!-- iconafontawesome -->
+                        </div>
                         <div v-for="(item, index) in qualities" :key="index">
                             <h5 class="padding-title">{{ item.title }}</h5>
                             <span class="font-small">{{ item.lorem }}</span>
@@ -112,11 +124,11 @@
         <div class="container padding-sec">
             <h4 class="text-center">Awards</h4>
             <div class="row flex-partner">
-            <div class="col" v-for="(prize, index) in awards" :key="index">
-                <div><img :src="prize.img"></div>
-                <span class="bold">{{prize.prizeName}}</span>
+                <div class="col" v-for="(prize, index) in awards" :key="index">
+                    <div><img :src="prize.img"></div>
+                    <span class="bold">{{ prize.prizeName }}</span>
+                </div>
             </div>
-        </div>
         </div>
 
         <!-- worker quote -->
@@ -126,7 +138,9 @@
                     <img src="../../public/large-testimonial-400x389.jpg" alt="">
                 </div>
                 <div class="col">
-                    <p class="bold text-left">"The team at Avada Marketing Consultant is faboulous. They helped us unlock our potential
+                    <p class="bold text-left">"The team at Avada Marketing Consultant is faboulous. They helped us
+                        unlock
+                        our potential
                         online and offline. We have experienced year on year growth due to their progressive approach"
                     </p>
                     <p class="font-small bold">Kate Schneider</p>
@@ -160,14 +174,28 @@
                 <div class="row">
                     <div class="col">
                         <h2>Let's Make Things Happen</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A neque assumenda vitae earum? Praesentium, </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A neque assumenda vitae earum?
+                            Praesentium
+                        </p>
+                        <div class="line"></div>
+                        <div class="font-small py-3">
+                            "The team at Avada Marketing Consultant is faboulous. They helped us
+                        unlock
+                        our potential
+                        online and offline. We have experienced year on year growth due to their progressive approach"
+                        </div>
+                        <div class="font-small py-3">George Anderson</div>
+                        <div class="font-small">DigitalBox CEO</div>
+
                     </div>
                     <div class="col">
 
                     </div>
                 </div>
+            </div>
         </div>
-        </div>
+    </div>
+
 
 </template>
 
@@ -178,12 +206,12 @@ export default {
     data() {
         return {
             partners: [
-                {url: require('../../public/abstract.png')},
-                {url: require('../../public/cglobal.png')},
-                {url: require('../../public/next.png')},
-                {url: require('../../public/hemisferio.png')},
-                {url: require('../../public/spaces.png')},
-                {url: require('../../public/digitalbox.png')},
+                { url: require('../../public/abstract.png') },
+                { url: require('../../public/cglobal.png') },
+                { url: require('../../public/next.png') },
+                { url: require('../../public/hemisferio.png') },
+                { url: require('../../public/spaces.png') },
+                { url: require('../../public/digitalbox.png') },
             ],
             caseStudies: [
                 {
@@ -221,24 +249,24 @@ export default {
             ],
             awards: [
                 {
-                img: "../../award-a-200x191.png",
-                prizeName: "Winner Seo Master MAGT Smart Start Award 2017"
-            },
+                    img: "../../award-a-200x191.png",
+                    prizeName: "Winner Seo Master MAGT Smart Start Award 2017"
+                },
                 {
-                img: "../../award-b-200x191.png",
-                prizeName: "Top Social Media Agencies Next Partner 2018"
-            },
+                    img: "../../award-b-200x191.png",
+                    prizeName: "Top Social Media Agencies Next Partner 2018"
+                },
                 {
-                img: "../../award-c-200x191.png",
-                prizeName: "10 Fastest Growing Abstract Solution Providers 2019"
-            },
+                    img: "../../award-c-200x191.png",
+                    prizeName: "10 Fastest Growing Abstract Solution Providers 2019"
+                },
                 {
-                img: "../../award-d-200x191.png",
-                prizeName: "National Excellence Agencie Award Winner 2020"
-            },
+                    img: "../../award-d-200x191.png",
+                    prizeName: "National Excellence Agencie Award Winner 2020"
+                },
             ],
             marketingTips: [
-            {
+                {
                     img: "../../blog-posts-6-400x267.jpg",
                     text: "Marketing Tips and Tricks For Your Website"
                 },
@@ -251,8 +279,9 @@ export default {
                     text: "Techniques to Reduce Facebook ADS Spends"
                 }
             ]
-        
-}},
+
+        }
+    },
     methods: {
 
     }
@@ -264,7 +293,6 @@ export default {
 
 
 <style>
-
 .flex-partner {
     display: flex;
     justify-content: space-between;
@@ -319,10 +347,14 @@ export default {
     padding: 10px 30px;
 }
 
-
 .bg-black {
     background-color: black;
     color: white;
     width: 100%;
+}
+
+.line {
+    width: 46px;
+    border: 1px solid rgb(79, 78, 78)
 }
 </style>
