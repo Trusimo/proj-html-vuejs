@@ -53,8 +53,12 @@
         </div>
 
         <div class="container flex-partner shadow">
-            <div>
+            <div class="flex-bar">
                 <img class="img-rounded" src="../../public/marketing-expert-cta.png" alt="">
+                <div>
+                    <h5>Sandy Reiff</h5>
+                    <p class="font-small">Marketing Consultant Expert</p>
+                </div>
             </div>
             <h5>Drive Leads and Sales with Avada</h5>
             <button class="btn-orange">(555) 802-134</button>
@@ -114,7 +118,9 @@
                 <div class="col-5">
                     <div>
                         <div>
-                            <!-- iconafontawesome -->
+                            <i class="fa-solid fa-2x fa-square-poll-horizontal"></i>
+                            <i class="fa-solid fa-2x fa-calendar-plus"></i>
+                            <i class="fa-solid fa-2x fa-chart-bar"></i>
                         </div>
                         <div v-for="(item, index) in qualities" :key="index">
                             <h5 class="padding-title">{{ item.title }}</h5>
@@ -349,6 +355,12 @@ export default {
     display: flex;
     justify-content: end;
     align-items: flex-end;
+}
+
+.flex-bar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
 }
 
 .padding-sec {
